@@ -43,7 +43,7 @@ float mc_pi(int count){
   for (int i=0;i<count; i++){
     float a = frandom();
     float b =frandom();
-    flaot c= (a*a)+(b*b);
+    float c= (a*a)+(b*b);
     if (c<1)
       circle++;
   }
