@@ -39,7 +39,7 @@ int main(void) {
   }
 }
 float mc_pi(int count){
-  float circlec=0;
+  float circle=0;
   for (int i=0;i<count; i++){
     float a = frandom();
     float b =frandom();
